@@ -4,6 +4,12 @@
     background-color: bisque;
 }
 
+.listadoPaises {
+
+    background-color: bisque;
+    text-align: center;
+}
+
 
 .tamañoEscudo {
     width: 50px;
@@ -18,6 +24,9 @@
 text-align: center;
 margin-left: 25%;
 border-radius: 10px;
+margin-top: 10px;
+margin-bottom: 15px;
+background: linear-gradient(to left, cadetblue, bisque)
 
 }
 
@@ -37,16 +46,232 @@ text-align: center;
     text-align: center;
     width: 100% ;
     height: 70px ;
-    border: 3px solid rgb(244, 217, 184);
+    border: 4px solid black;
+    background: linear-gradient(to left, cadetblue, bisque)
+
 }
 
 .tituloSecundario {
 
-    margin-left: 25%;
-
-}
-
-.cajaPrincipal {
+    margin-bottom: 10px;
+    margin-left: 30%;
+    font-style: oblique;
 
 
 }
+
+.tituloWorking {
+
+font-style: oblique;
+
+}
+
+.banderaEspaña {
+
+    width: 250px;
+    height: 250px;
+    
+}
+
+.banderaSuecia {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.banderaNuevazelanda {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.banderaFrancia {
+
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.banderaAustralia {
+
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.banderaDinamarca {
+
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.paisUno {
+    background: linear-gradient(to left,bisque , cadetblue) ;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 5px inset black;
+    margin-bottom: 15px;
+    transition: all 2s;
+
+}
+
+.paisDos {
+    background: linear-gradient(to left,bisque , cadetblue) ;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 5px inset black;
+    margin-bottom: 15px;
+    transition: all 2s;
+}
+
+.paisTres {
+    background: linear-gradient(to left,bisque , cadetblue) ;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 5px inset black;
+    margin-bottom: 15px;
+    transition: all 2s;
+}
+
+.paisCuatro {
+    background: linear-gradient(to left,bisque , cadetblue) ;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 5px inset black;
+    margin-bottom: 15px;
+    transition: all 2s;
+}
+
+.paisCinco {
+    background: linear-gradient(to left,bisque , cadetblue) ;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 5px inset black;
+    margin-bottom: 15px;
+    transition: all 2s;
+}
+
+.paisSeis {
+    background: linear-gradient(to left,bisque , cadetblue) ;
+display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 5px inset black;
+    margin-bottom: 15px;
+    transition: all 2s;
+   
+}
+
+.tituloPaises {
+    
+    width: 50%;
+    height: 70px;
+    background-color: bisque;
+    border: 5px inset black;
+text-align: center;
+margin-left: 25%;
+border-radius: 10px;
+margin-top: 10px;
+margin-bottom: 15px;
+background: linear-gradient(to left, cadetblue, bisque)
+
+
+}
+
+.paisSeis:hover {
+    background: linear-gradient(to left, cadetblue, bisque) ;
+    width: 500px;
+    height: 500px;
+}
+
+.paisCinco:hover {
+    background: linear-gradient(to left, cadetblue, bisque) ;
+    width: 500px;
+    height: 500px;
+}
+
+.paisCuatro:hover {
+    background: linear-gradient(to left, cadetblue, bisque) ;
+    width: 500px;
+    height: 500px;
+}
+
+.paisTres:hover {
+    background: linear-gradient(to left, cadetblue, bisque) ;
+    width: 500px;
+    height: 500px;
+}
+
+.paisDos:hover {
+    background: linear-gradient(to left, cadetblue, bisque) ;
+    width: 500px;
+    height: 500px;
+}
+
+.paisUno:hover {
+    background: linear-gradient(to left, cadetblue, bisque) ;
+    width: 500px;
+    height: 500px;
+}
+
+.container {
+    background-color: #dcad3e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
